@@ -1,10 +1,10 @@
 [package]
-name = "jpeglib"
+name = "libjpeg"
 version = "0.1.0"
 edition = "2021"
 description = "FFI bindings to jpeglib.h"
 license = "MIT/Apache-2.0"
-#repository = ""
+repository = "git@github.com:ArtyomSinyugin/libjpeg-rs.git"  # rust clone of https://github.com/kornelski/libjpeg/
 categories = ["multimedia::images", "external-ffi-bindings"]
 keywords = ["raw", "jpeg"]
 readme = "README.md"
