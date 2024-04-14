@@ -1,0 +1,19 @@
+[package]
+name = "jpeglib"
+version = "0.1.0"
+edition = "2021"
+description = "FFI bindings to jpeglib.h"
+license = "MIT/Apache-2.0"
+#repository = ""
+categories = ["multimedia::images", "external-ffi-bindings"]
+keywords = ["raw", "jpeg"]
+readme = "README.md"
+build = "build.rs"
+include = ["src/lib.rs", "src/bindings.rs", "Cargo.toml", "README.md", "libjpeg-master/*", "build.rs"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.69.4"
